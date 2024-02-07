@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+}
+
+.title {
+  font-size: 45px;
+}
+
+.bord {
+  border-bottom: 1px solid grey;
+}
+
+label {
+  color: #E4E4E6;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+::-moz-placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #62646C;
+}
+
+::placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #62646C;
+}
+
+input {
+  border: 0;
+  border-bottom: 2px solid grey;
+  background-color: transparent;
+}
+
+.butn {
+  background-color: #4A2CED;
+  color: #fff;
+  border-radius: 70px;
+  padding: 6px 40px;
+}
+
+.send {
+  line-height: 80px;
+}
+
+.btn {
+  color: white;
+  background-color: #1C1C21;
+}
+
+.bl {
+  background-color: #1C1C21;
+}
+
+.salam {
+  min-height: 45vh;
+}
+
+@media screen and (max-width: 568px) {
+  .salam {
+    min-height: 20vh;
+  }
+}/*# sourceMappingURL=main.css.map */
